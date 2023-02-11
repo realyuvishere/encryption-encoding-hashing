@@ -4,7 +4,12 @@
   "description": "Understanding encryption, encoding and hashing using Node.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:encoding": "node encoding.js",
+    "start:encryption": "node encryption.js",
+    "start:hashing": "node hashing.js",
+    "start:obfuscation": "node obfuscation.js"
   },
   "author": "realyuvishere",
   "license": "MIT"
