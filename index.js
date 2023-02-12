@@ -1,5 +1,5 @@
 const fs = require('fs')
-
+const {STRING} = require('./vars')
 const files = fs.readdirSync('.')
 
 files.forEach((file, index) => {
@@ -14,7 +14,7 @@ files.forEach((file, index) => {
             console.log(`-------"${functionName}" file ends-------`)
             console.log('\r\n----Output Starts Here ----\r\n')
             const temp = require(`./${moduleName}`)
-            console.log(temp())
+            console.log(temp(STRING))
             console.log('\r\n----Output Ends Here----\r\n')
         })
     }
