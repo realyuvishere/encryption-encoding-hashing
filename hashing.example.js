@@ -5,8 +5,10 @@ const printHashingStrings = (string) => {
 
     const hashed = hmac.digest('hex')
 
-    return `The string: ${string}\n
-    Hashed string: ${hashed}`
+    return `
+    The string: ${string}\n
+    Hashed string: ${hashed}
+    `
 }
 
 if (require.main === module) {

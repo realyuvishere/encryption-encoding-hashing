@@ -1,7 +1,8 @@
 const printBase64Strings = (string) => {
     const encoded = btoa(string)
 
-    return `The string: ${string}\n
+    return `
+    The string: ${string}\n
     Encoded string: ${encoded}\n
     Decoded string: ${atob(encoded)}        
     `
